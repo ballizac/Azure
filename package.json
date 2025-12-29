@@ -1,0 +1,32 @@
+{
+  "name": "azure-development",
+  "version": "1.0.0",
+  "description": "Powerful moderation bot equipped with tools to protect your server from rule-breakers.",
+  "keywords": [
+    "fun",
+    "automod",
+    "moderation",
+    "utility"
+  ],
+  "homepage": "https://github.com/ballizac/Azure#readme",
+  "bugs": {
+    "url": "https://github.com/ballizac/Azure/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ballizac/Azure.git"
+  },
+  "license": "ISC",
+  "author": "ballizac",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.0.2",
+    "ms": "^2.1.3"
+  }
+}

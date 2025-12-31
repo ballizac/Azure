@@ -22,6 +22,7 @@ const hmodIds = [
 ];
 
 const staffIds = [
+    '1454985695608180783', // ballizac
     '441350823675428866', // walkerofnothing
     '224981331078021124', // bhinni
     '280483454750031872', // elizabethducc

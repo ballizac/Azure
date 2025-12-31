@@ -107,7 +107,7 @@ module.exports = {
             warnLog = guild.channels.cache.get(punishmentLogId);
 
             if (warnLog) {
-                await message.channel.send(`Punishment warn for ${member.user.username} (${member.id}) logged\n-# Punishment ID: ${punishmentId}`)
+                await warnLog.send(`Punishment warn for ${member.user.username} (${member.id}) logged\n-# Punishment ID: ${punishmentId}`)
             }
 
             if (!silentFlag) {
